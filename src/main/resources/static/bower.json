@@ -1,0 +1,37 @@
+{
+  "name": "SMARTWEBSCHOOL",
+  "authors": [
+    "santosh"
+  ],
+  "description": "THIS IS SAMPLE DEMO PROJECT WITH INTELLJI IDEA WITH SPRING SECURITY",
+  "main": "index.js",
+  "keywords": [
+    "CSS",
+    "BOOTSTRAP",
+    "JS",
+    "ANGULAR",
+    "SECURITY",
+    "JPA",
+    "HIBERNATE",
+    "SPRING"
+  ],
+  "license": "MIT",
+  "homepage": "www.smartwebschool.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^5.0.6"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "^1.6.9",
+    "jquery": "^3.3.1",
+    "angular-base64": "^2.0.5"
+  }
+}
