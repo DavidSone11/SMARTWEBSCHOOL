@@ -4,7 +4,6 @@ package com.mathologic.project.SMARTSCHOOL.securityConfig;
 import com.mathologic.project.SMARTSCHOOL.mongo.entity.User;
 import com.mathologic.project.SMARTSCHOOL.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -16,14 +15,30 @@ import org.springframework.transaction.annotation.Transactional;
 public class CustomUserDetailsService implements UserDetailsService {
 
 
+
+
     @Autowired
     UserService userService;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-       Page<User> user = userService.findByNameUserNameIsActive(username,true);
+       User user = userService.findByNameUserNameIsActive(username,true);
+//
+//        if(user==null) {
+//            throw new UsernameNotFoundException("No such user: " + username);
+//        } else if (user.getRoles().isEmpty()) {
+//            throw new UsernameNotFoundException("User " + username + " has no authorities");
+//        }
 
         return null;
+    }
+
+    public UserService getUserService() {
+        return userService;
+    }
+
+    public void setUserService(UserService userService) {
+        this.userService = userService;
     }
 }

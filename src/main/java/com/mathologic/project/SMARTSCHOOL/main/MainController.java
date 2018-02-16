@@ -75,7 +75,7 @@ public class MainController extends SpringBootServletInitializer implements Comm
 
          User user = null;
          if(user ==null){
-             user = new User("santosh123","admin","santosh@gmail.com","7406465159","123456","santosh","sahu",true,new Date());
+             user = new User("santosh123","admin","santosh@gmail.com","7406465159","123456","santosh","sahu",true,new Date(),"super");
              userRepository.save(user);
 
          }

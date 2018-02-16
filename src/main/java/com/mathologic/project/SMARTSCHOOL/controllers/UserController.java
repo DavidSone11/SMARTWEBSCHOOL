@@ -36,9 +36,9 @@ public class UserController implements Serializable {
     }
 
     @RequestMapping(value = "/findByAllParams", method = RequestMethod.GET)
-    public @ResponseBody
-    Page<User> findByAllParams() {
-        return this.userService.findByNameUserNameIsActive("santosh",true);
+    public @ResponseBody User findByAllParams() {
+       // return this.userService.findByNameUserNameIsActive("santosh",false);
+        return this.userService.findByFirstNameAndLastName("santosh","sahu12458");
     }
 
 }

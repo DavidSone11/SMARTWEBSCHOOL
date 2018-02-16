@@ -48,7 +48,12 @@ public class UserService {
     }
 
     @Transactional
-    public Page<User> findByNameUserNameIsActive(String username, boolean isTrue){
-        return  userRepository.findByNameUserNameIsActive(username,isTrue,new PageRequest(0,10));
+    public User findByNameUserNameIsActive(String username, boolean isTrue){
+        return  userRepository.findByNameUserNameIsActive(username,isTrue);
+    }
+
+    @Transactional
+    public User findByFirstNameAndLastName(String firstnama, String  lastname){
+        return  userRepository.findByNameFirstNameAndLastName(firstnama,lastname);
     }
 }

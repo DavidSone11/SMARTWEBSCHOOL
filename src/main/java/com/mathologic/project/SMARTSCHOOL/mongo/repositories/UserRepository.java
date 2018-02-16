@@ -14,6 +14,10 @@ public interface UserRepository extends MongoRepository<User, String> {
 //    User user = findOneUserNameAndPassword();
 
     @Query("{username : ?0,isActive: ?1}")
-    Page<User> findByNameUserNameIsActive(String username, boolean isActive, Pageable pageable);
+    User findByNameUserNameIsActive(String username, boolean isActive);
+
+    //@Query("{username : ?0,isActive: ?1}")
+    @Query("{'$or':[ {'firstName':?0}, {'lastName':?1}]}")
+    User findByNameFirstNameAndLastName(String firstname, String lastname);
 
 }

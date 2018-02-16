@@ -72,7 +72,14 @@ public class User implements Serializable{
     private Date createdDateTime;
 
 
-    public User(String username, String password,String email,String telephoneNo,String extension,String firstName,String lastName,boolean isActive,Date createdDateTime) {
+
+    @Size(max = 10)
+    @Field(value = "role")
+    private String role;
+
+
+
+    public User(String username, String password,String email,String telephoneNo,String extension,String firstName,String lastName,boolean isActive,Date createdDateTime,String role) {
         this.username = username;
         this.password =password;
         this.email = email;
@@ -82,6 +89,7 @@ public class User implements Serializable{
         this.lastName = lastName;
         this.isActive = isActive;
         this.createdDateTime = createdDateTime;
+        this.role = role;
     }
 
 
@@ -174,4 +182,13 @@ public class User implements Serializable{
     public void setCreatedDateTime(Date createdDateTime) {
         this.createdDateTime = createdDateTime;
     }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
 }
