@@ -4,10 +4,8 @@ import com.mathologic.project.SMARTSCHOOL.mongo.entity.Role;
 import com.mathologic.project.SMARTSCHOOL.services.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -34,9 +32,10 @@ public class UploadController implements Serializable {
         return strDate;
     }
 
-    @RequestMapping(value = "/findByAllParams", method = RequestMethod.GET)
-    public @ResponseBody void findByAllParams() {
+    @RequestMapping(value = "/stationUpload", method = RequestMethod.POST)
+    public @ResponseBody void stationUpload(@RequestParam("file") MultipartFile stationDetails) {
 
+            System.out.print(""+stationDetails);
 
     }
 
