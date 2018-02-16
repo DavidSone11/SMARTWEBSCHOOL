@@ -39,6 +39,7 @@ public class CustomWebSecurityConfiguration extends WebSecurityConfigurerAdapter
                 .antMatchers(HttpMethod.POST, "/api/v1/test/createRole/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/api/v1/user/findByAllParams/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/api/v1/role/findByAllParams/**").permitAll()
+                .antMatchers(HttpMethod.POST, "/api/v1/upload/stationUpload/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
