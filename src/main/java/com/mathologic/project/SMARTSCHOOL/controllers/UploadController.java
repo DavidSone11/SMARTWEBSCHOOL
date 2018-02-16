@@ -39,4 +39,12 @@ public class UploadController implements Serializable {
 
     }
 
+
+    @PostMapping("/trainUpload")
+    public @ResponseBody void trainUpload(@RequestParam("file") MultipartFile trainDetails) {
+
+        System.out.print(""+trainDetails);
+
+    }
+
 }
