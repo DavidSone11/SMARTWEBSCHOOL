@@ -4018,3 +4018,363 @@ Caused by: org.springframework.data.mapping.model.MappingException: Ambiguous fi
 16-02-2018 21:02:36.267 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
 16-02-2018 21:02:36.517 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 17.571 seconds (JVM running for 19.93)
 16-02-2018 21:02:40.237 [http-nio-6060-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 21:06:45.286 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 15644 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 21:06:45.327 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 21:06:45.329 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 21:06:45.800 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ab18ad9: startup date [Fri Feb 16 21:06:45 IST 2018]; root of context hierarchy
+16-02-2018 21:06:53.742 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 21:06:53.785 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 21:06:53.794 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 21:06:54.119 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 21:06:55.262 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 21:06:55.263 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 21:06:55.264 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 21:06:55.264 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 21:06:55.268 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 21:06:55.269 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 21:06:56.889 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 21:06:57.083 [cluster-ClusterId{value='5a86fa9866c8df3d1cbccb76', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+16-02-2018 21:06:57.088 [cluster-ClusterId{value='5a86fa9866c8df3d1cbccb76', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1216190}
+16-02-2018 21:06:57.602 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+16-02-2018 21:06:59.466 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 21:06:59.730 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@df9e5f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@59424348, org.springframework.security.web.header.HeaderWriterFilter@2bdb9197, org.springframework.security.web.authentication.logout.LogoutFilter@687859d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46a7bba1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10e11137, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18ac386f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@481c76f2, org.springframework.security.web.session.SessionManagementFilter@1045e246, org.springframework.security.web.access.ExceptionTranslationFilter@6442674, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@259954a]
+16-02-2018 21:07:01.722 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 21:07:02.654 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 21:07:02.930 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 21:07:03.151 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 21:07:03.159 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 21:07:03.159 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 21:07:03.160 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 21:07:03.160 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 21:07:03.346 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 19.52 seconds (JVM running for 21.904)
+16-02-2018 21:07:19.859 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 22:25:43.755 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 15060 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:25:43.758 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:25:43.772 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:25:44.062 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1561ce61: startup date [Fri Feb 16 22:25:44 IST 2018]; root of context hierarchy
+16-02-2018 22:25:53.707 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:25:53.746 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:25:53.750 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:25:54.121 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:25:54.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:25:54.861 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:25:54.862 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:25:54.863 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:25:54.865 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:25:54.866 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:25:56.359 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:25:56.574 [cluster-ClusterId{value='5a870d1c66c8df3ad428ec8e', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+16-02-2018 22:25:56.579 [cluster-ClusterId{value='5a870d1c66c8df3ad428ec8e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1268647}
+16-02-2018 22:25:57.032 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+16-02-2018 22:25:57.912 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:25:57.914 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:25:57.914 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:25:57.915 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:25:57.964 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+16-02-2018 22:25:57.979 [restartedMain] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:26}] to localhost:27017 because the pool has been closed.
+16-02-2018 22:25:58.009 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+16-02-2018 22:25:58.209 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16-02-2018 22:25:58.246 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.mathologic.project.SMARTSCHOOL.main.MainController.main(MainController.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.assertUniqueness(BasicMongoPersistentEntity.java:298)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:285)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:279)
+	at org.springframework.data.mapping.model.BasicPersistentEntity.doWithProperties(BasicPersistentEntity.java:330)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verifyFieldUniqueness(BasicMongoPersistentEntity.java:159)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verify(BasicMongoPersistentEntity.java:151)
+	at org.springframework.data.mapping.context.AbstractMappingContext.addPersistentEntity(AbstractMappingContext.java:337)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:185)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:145)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:70)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getEntityInformation(MongoRepositoryFactory.java:122)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getTargetRepository(MongoRepositoryFactory.java:96)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean.afterPropertiesSet(MongoRepositoryFactoryBean.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 34 common frames omitted
+16-02-2018 22:27:29.779 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 13488 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:27:29.783 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:27:29.784 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:27:30.149 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7aab2a8e: startup date [Fri Feb 16 22:27:30 IST 2018]; root of context hierarchy
+16-02-2018 22:27:36.660 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:27:36.697 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:27:36.699 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:27:37.039 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:27:37.597 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:27:37.598 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:27:37.599 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:27:37.599 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:27:37.602 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:27:37.603 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:27:39.067 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:27:39.243 [cluster-ClusterId{value='5a870d8366c8df34b0b2cdfd', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+16-02-2018 22:27:39.247 [cluster-ClusterId{value='5a870d8366c8df34b0b2cdfd', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1266937}
+16-02-2018 22:27:39.647 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+16-02-2018 22:27:40.044 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:27:40.045 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:27:40.046 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:27:40.046 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:27:40.093 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+16-02-2018 22:27:40.098 [restartedMain] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:28}] to localhost:27017 because the pool has been closed.
+16-02-2018 22:27:40.114 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+16-02-2018 22:27:40.175 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16-02-2018 22:27:40.204 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.mathologic.project.SMARTSCHOOL.main.MainController.main(MainController.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.assertUniqueness(BasicMongoPersistentEntity.java:298)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:285)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:279)
+	at org.springframework.data.mapping.model.BasicPersistentEntity.doWithProperties(BasicPersistentEntity.java:330)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verifyFieldUniqueness(BasicMongoPersistentEntity.java:159)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verify(BasicMongoPersistentEntity.java:151)
+	at org.springframework.data.mapping.context.AbstractMappingContext.addPersistentEntity(AbstractMappingContext.java:337)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:185)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:145)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:70)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getEntityInformation(MongoRepositoryFactory.java:122)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getTargetRepository(MongoRepositoryFactory.java:96)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean.afterPropertiesSet(MongoRepositoryFactoryBean.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 34 common frames omitted
+16-02-2018 22:28:25.533 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 25388 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:28:25.536 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:28:25.538 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:28:25.789 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1561ce61: startup date [Fri Feb 16 22:28:25 IST 2018]; root of context hierarchy
+16-02-2018 22:28:33.264 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:28:33.313 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:28:33.316 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:28:33.605 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:28:34.163 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:28:34.164 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:28:34.165 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:28:34.165 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:28:34.167 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:28:34.168 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:28:35.826 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:28:36.017 [cluster-ClusterId{value='5a870dbb66c8df632ce9317e', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+16-02-2018 22:28:36.022 [cluster-ClusterId{value='5a870dbb66c8df632ce9317e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1323385}
+16-02-2018 22:28:36.401 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+16-02-2018 22:28:36.771 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:28:36.772 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:28:36.773 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:28:36.774 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:28:36.825 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+16-02-2018 22:28:36.832 [restartedMain] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:30}] to localhost:27017 because the pool has been closed.
+16-02-2018 22:28:36.854 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+16-02-2018 22:28:36.912 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16-02-2018 22:28:36.933 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UploadDumpController': Unsatisfied dependency expressed through field 'userUploadDumpRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.mathologic.project.SMARTSCHOOL.main.MainController.main(MainController.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userUploadDumpRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.data.mapping.model.MappingException: Ambiguous field mapping detected! Both @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) private java.lang.Boolean com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.markDelete and @org.springframework.data.mongodb.core.mapping.Field(value=fileName, order=2147483647) @javax.validation.constraints.Size(groups=[], min=0, message={javax.validation.constraints.Size.message}, max=100, payload=[]) private java.lang.String com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump.fileName map to the same field name fileName! Disambiguate using @Field annotation!
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.assertUniqueness(BasicMongoPersistentEntity.java:298)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:285)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity$AssertFieldNameUniquenessHandler.doWithPersistentProperty(BasicMongoPersistentEntity.java:279)
+	at org.springframework.data.mapping.model.BasicPersistentEntity.doWithProperties(BasicPersistentEntity.java:330)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verifyFieldUniqueness(BasicMongoPersistentEntity.java:159)
+	at org.springframework.data.mongodb.core.mapping.BasicMongoPersistentEntity.verify(BasicMongoPersistentEntity.java:151)
+	at org.springframework.data.mapping.context.AbstractMappingContext.addPersistentEntity(AbstractMappingContext.java:337)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:185)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:145)
+	at org.springframework.data.mapping.context.AbstractMappingContext.getPersistentEntity(AbstractMappingContext.java:70)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getEntityInformation(MongoRepositoryFactory.java:122)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory.getTargetRepository(MongoRepositoryFactory.java:96)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean.afterPropertiesSet(MongoRepositoryFactoryBean.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 34 common frames omitted
+16-02-2018 22:30:01.244 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 22916 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:30:01.248 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:30:01.250 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:30:01.596 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca07ea6: startup date [Fri Feb 16 22:30:01 IST 2018]; root of context hierarchy
+16-02-2018 22:30:09.041 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:30:09.084 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:30:09.087 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:30:09.438 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:30:10.008 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:30:10.010 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:30:10.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:30:10.012 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:30:10.015 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:30:10.016 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:30:11.399 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:30:11.556 [cluster-ClusterId{value='5a870e1b66c8df5984825206', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+16-02-2018 22:30:11.561 [cluster-ClusterId{value='5a870e1b66c8df5984825206', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1180840}
+16-02-2018 22:30:11.960 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:32}] to localhost:27017
+16-02-2018 22:30:12.218 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:30:12.218 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:30:12.220 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:30:12.221 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:30:13.533 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 22:30:13.721 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4aa4a1e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@193a90dd, org.springframework.security.web.header.HeaderWriterFilter@2e227649, org.springframework.security.web.authentication.logout.LogoutFilter@542c5583, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@734d45df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58ba34f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ee4b371, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c889a12, org.springframework.security.web.session.SessionManagementFilter@7e1963e8, org.springframework.security.web.access.ExceptionTranslationFilter@3b143f10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f9b7d75]
+16-02-2018 22:30:15.116 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 22:30:16.083 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 22:30:16.282 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 22:30:16.447 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 22:30:16.455 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:30:16.456 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:30:16.457 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:30:16.458 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:30:16.610 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 16.459 seconds (JVM running for 18.238)
+16-02-2018 22:41:33.524 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 17952 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:41:33.529 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:41:33.530 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:41:34.040 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1561ce61: startup date [Fri Feb 16 22:41:34 IST 2018]; root of context hierarchy
+16-02-2018 22:41:40.406 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:41:40.438 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:41:40.440 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:41:40.732 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:41:41.294 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:41:41.296 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:41:41.297 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:41:41.298 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:41:41.301 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:41:41.303 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:41:42.654 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:41:42.781 [cluster-ClusterId{value='5a8710ce66c8df462008ab7a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+16-02-2018 22:41:42.786 [cluster-ClusterId{value='5a8710ce66c8df462008ab7a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1199656}
+16-02-2018 22:41:43.256 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:36}] to localhost:27017
+16-02-2018 22:41:43.551 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:41:43.552 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:41:43.553 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:41:43.553 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:41:44.526 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 22:41:44.755 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@564481de, org.springframework.security.web.context.SecurityContextPersistenceFilter@197ab910, org.springframework.security.web.header.HeaderWriterFilter@52baba81, org.springframework.security.web.authentication.logout.LogoutFilter@6616775f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24e5e0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32fd55d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60224006, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59fd0528, org.springframework.security.web.session.SessionManagementFilter@175eeb22, org.springframework.security.web.access.ExceptionTranslationFilter@2a06f234, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34f0694a]
+16-02-2018 22:41:46.204 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 22:41:47.164 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 22:41:47.343 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 22:41:47.593 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 22:41:47.606 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:41:47.607 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:41:47.607 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:41:47.608 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:41:47.894 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 15.354 seconds (JVM running for 18.375)

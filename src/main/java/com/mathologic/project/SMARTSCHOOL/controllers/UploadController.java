@@ -20,31 +20,38 @@ import java.util.Date;
 public class UploadController implements Serializable {
 
 
-
-
-
-
     @RequestMapping(value = "/time", method = RequestMethod.GET)
-    public @ResponseBody String getTime() {
+    public @ResponseBody
+    String getTime() {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-        String strDate= formatter.format(date);
+        String strDate = formatter.format(date);
         return strDate;
     }
 
     @RequestMapping(value = "/stationUpload", method = RequestMethod.POST)
-    public @ResponseBody void stationUpload(@RequestParam("file") MultipartFile stationDetails) {
+    public @ResponseBody
+    void stationUpload(@RequestParam("file") MultipartFile stationDetails) {
 
-            System.out.print(""+stationDetails);
+        System.out.print("" + stationDetails);
 
     }
 
 
     @PostMapping("/trainUpload")
-    public @ResponseBody void trainUpload(@RequestParam("file") MultipartFile trainDetails) {
+    public @ResponseBody
+    String trainUpload(@RequestParam("file") MultipartFile trainDetails) {
 
-        System.out.print(""+trainDetails);
+        System.out.print("" + trainDetails);
+
+        if (trainDetails.isEmpty()) {
+            return "The File is Empty!!!!!!!!!!!!";
+        }
+
+
+        return "File Uploaded SuccessFully!!!!!";
 
     }
+
 
 }
