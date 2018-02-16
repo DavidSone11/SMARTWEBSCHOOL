@@ -72,12 +72,19 @@ public class User implements Serializable{
     private Date createdDateTime;
 
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     @Size(max = 10)
     @Field(value = "role")
+
     private String role;
 
 
+    @Size(max = 100)
+    @Field(value = "markDelete")
+    private boolean markDelete = Boolean.FALSE;
 
     public User(String username, String password,String email,String telephoneNo,String extension,String firstName,String lastName,boolean isActive,Date createdDateTime,String role) {
         this.username = username;

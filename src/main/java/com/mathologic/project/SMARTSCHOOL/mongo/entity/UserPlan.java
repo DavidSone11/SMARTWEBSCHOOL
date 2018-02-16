@@ -1,6 +1,7 @@
 package com.mathologic.project.SMARTSCHOOL.mongo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
@@ -10,11 +11,15 @@ import java.io.Serializable;
 import java.util.Date;
 
 
-@Document(collection ="userplan" )
-@JsonIgnoreProperties(ignoreUnknown = true)
+
 /**
  *  Created by Santosh on 2/16/18.
  */
+
+
+
+@Document(collection = "UserPlan")
+@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class UserPlan implements Serializable {
 
@@ -24,15 +29,13 @@ public class UserPlan implements Serializable {
     @Field(value = "planName")
     private String planName;
 
-    @Size(max = 100)
-    @Field(value = "isComplete")
-    private boolean isComplete;
 
-    @Size(max = 100)
+
+
     @Field(value = "isComplete")
     private boolean isUnderReview;
 
-    @Size(max = 100)
+
     @Field(value = "isLocked")
     private boolean isLocked;
 
@@ -48,11 +51,11 @@ public class UserPlan implements Serializable {
     @Field(value = "owner")
     private String owner;
 
-    @Size(max = 100)
+
     @Field(value = "markDelete")
     private boolean markDelete = Boolean.FALSE;
 
-    @Size(max = 100)
+
     @Field(value = "createdTime")
     private Date createdTime = new Date();
 
@@ -66,13 +69,7 @@ public class UserPlan implements Serializable {
         this.planName = planName;
     }
 
-    public boolean isComplete() {
-        return isComplete;
-    }
 
-    public void setComplete(boolean complete) {
-        isComplete = complete;
-    }
 
     public boolean isUnderReview() {
         return isUnderReview;

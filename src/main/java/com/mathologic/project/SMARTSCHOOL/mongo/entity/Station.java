@@ -3,7 +3,7 @@ package com.mathologic.project.SMARTSCHOOL.mongo.entity;
 
 
 import java.io.Serializable;
-import javax.validation.constraints.NotNull;
+
 import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.Id;
@@ -30,69 +30,44 @@ public class Station implements Serializable {
     private String id;
 
 
-    @NotNull
+
     @Size(max = 100)
     @Field(value = "code")
     private String code;
 
-    @NotNull
+
     @Size(max = 100)
     @Field(value = "name")
     private String name;
 
-    @NotNull
-    @Size(max = 10)
-    @Field(value = "headStationSignOffDuration")
+
+
+    @Field(value = "headStationSignOnDuration")
     private Long headStationSignOnDuration = 30L;
 
-    @NotNull
-    @Size(max = 10)
+
+
     @Field(value = "headStationSignOffDuration")
     private Long headStationSignOffDuration= 30L;
 
-    @NotNull
-    @Size(max = 10)
+
+
     @Field(value = "numberOfBeds")
     private Integer numberOfBeds= 1;
 
-    @NotNull
-    @Size(max = 10)
     @Field(value = "outStationSignOnDuration")
     private Long outStationSignOnDuration= 30L;
 
-    @NotNull
-    @Size(max = 10)
+
+
     @Field(value = "outStationSignOffDuration")
     private Long outStationSignOffDuration= 30L;
 
 
+    @Size(max = 100)
+    @Field(value = "markDelete")
+    private boolean markDelete = Boolean.FALSE;
 
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public Long getHeadStationSignOnDuration() {
         return headStationSignOnDuration;
@@ -133,6 +108,47 @@ public class Station implements Serializable {
     public void setOutStationSignOffDuration(Long outStationSignOffDuration) {
         this.outStationSignOffDuration = outStationSignOffDuration;
     }
+
+
+
+
+    public boolean isMarkDelete() {
+        return markDelete;
+    }
+
+    public void setMarkDelete(boolean markDelete) {
+        this.markDelete = markDelete;
+    }
+
+
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
 
 }

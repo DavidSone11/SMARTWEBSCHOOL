@@ -2,8 +2,10 @@ package com.mathologic.project.SMARTSCHOOL.main;
 
 
 import com.mathologic.project.SMARTSCHOOL.mongo.entity.Role;
+import com.mathologic.project.SMARTSCHOOL.mongo.entity.Station;
 import com.mathologic.project.SMARTSCHOOL.mongo.entity.User;
 import com.mathologic.project.SMARTSCHOOL.mongo.repositories.RoleRepository;
+import com.mathologic.project.SMARTSCHOOL.mongo.repositories.StationRepository;
 import com.mathologic.project.SMARTSCHOOL.mongo.repositories.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,6 +45,33 @@ public class MainController extends SpringBootServletInitializer implements Comm
     @Autowired
     UserRepository userRepository;
 
+    public RoleRepository getRoleRepository() {
+        return roleRepository;
+    }
+
+    public void setRoleRepository(RoleRepository roleRepository) {
+        this.roleRepository = roleRepository;
+    }
+
+    public UserRepository getUserRepository() {
+        return userRepository;
+    }
+
+    public void setUserRepository(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public StationRepository getStationRepository() {
+        return stationRepository;
+    }
+
+    public void setStationRepository(StationRepository stationRepository) {
+        this.stationRepository = stationRepository;
+    }
+
+    @Autowired
+    StationRepository stationRepository;
+
      public static void main(String []args){
          SpringApplication.run(MainController.class, args);
      }
@@ -62,6 +91,23 @@ public class MainController extends SpringBootServletInitializer implements Comm
         logger.error("Hello World");
         //createRole();
         //createUser();
+        createStation();
+    }
+
+    public void createStation(){
+
+        Station stn  = new Station();
+        stn.setCode("HSB");
+        stn.setName("HSBC");
+//        stn.setNumberOfBeds(1);
+//        stn.setHeadStationSignOffDuration(30L);
+//        stn.setHeadStationSignOnDuration(30L);
+//        stn.setOutStationSignOffDuration(30L);
+//        stn.setOutStationSignOnDuration(30L);
+        stn.setMarkDelete(true);
+
+
+        stationRepository.save(stn);
     }
 
     public void createRole(){

@@ -66,6 +66,7 @@ public class Train implements Serializable {
     private Date createdDateTime;
 
 
+
     public Train(int trainNo, String trainName, String fromStation, String toStation, String runningDays, String trainType, boolean markDelete, Date createdDateTime) {
         this.trainNo = trainNo;
         this.trainName = trainName;
