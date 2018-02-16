@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -33,9 +34,20 @@ public class Train implements Serializable {
     @Size(max = 100)
     private String fromStation;
 
+
+
+    @DBRef
+    private Station fromStationRef;
+
     @Field
     @Size(max = 100)
     private String toStation;
+
+
+    @DBRef
+    private Station toStationRef;
+
+
 
     @Field
     @Size(max = 100)
@@ -67,6 +79,21 @@ public class Train implements Serializable {
 
 
 
+    public Station getFromStationRef() {
+        return fromStationRef;
+    }
+
+    public void setFromStationRef(Station fromStationRef) {
+        this.fromStationRef = fromStationRef;
+    }
+
+    public Station getToStationRef() {
+        return toStationRef;
+    }
+
+    public void setToStationRef(Station toStationRef) {
+        this.toStationRef = toStationRef;
+    }
 
     public String getId() {
         return id;
