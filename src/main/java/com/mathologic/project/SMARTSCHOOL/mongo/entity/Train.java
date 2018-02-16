@@ -1,14 +1,19 @@
 package com.mathologic.project.SMARTSCHOOL.mongo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.format.annotation.DateTimeFormat;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
+
+@Document(collection = "trains")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Train implements Serializable {
 
 
