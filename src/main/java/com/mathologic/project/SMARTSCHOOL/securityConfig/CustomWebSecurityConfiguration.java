@@ -17,7 +17,7 @@ public class CustomWebSecurityConfiguration extends WebSecurityConfigurerAdapter
 
 
     @Override
-    public void configure(WebSecurity web) throws Exception {
+    public void configure(WebSecurity web) {
         web.ignoring().antMatchers(HttpMethod.OPTIONS, "/**");
     }
 
@@ -41,6 +41,7 @@ public class CustomWebSecurityConfiguration extends WebSecurityConfigurerAdapter
                 .antMatchers(HttpMethod.GET, "/api/v1/role/findByAllParams/**").permitAll()
                 .antMatchers(HttpMethod.POST, "/api/v1/upload/stationUpload/**").permitAll()
                 .antMatchers(HttpMethod.POST, "/api/v1/upload/trainUpload/**").permitAll()
+                .antMatchers(HttpMethod.POST, "/api/v1/uploadDump/trainDumpUpload**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()

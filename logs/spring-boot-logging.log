@@ -4378,3 +4378,173 @@ Caused by: org.springframework.data.mapping.model.MappingException: Ambiguous fi
 16-02-2018 22:41:47.607 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
 16-02-2018 22:41:47.608 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
 16-02-2018 22:41:47.894 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 15.354 seconds (JVM running for 18.375)
+16-02-2018 22:48:11.586 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 26916 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 22:48:11.590 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 22:48:11.590 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 22:48:12.226 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d4c685f: startup date [Fri Feb 16 22:48:12 IST 2018]; root of context hierarchy
+16-02-2018 22:48:20.315 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 22:48:20.358 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 22:48:20.362 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 22:48:20.954 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 22:48:21.593 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 22:48:21.595 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 22:48:21.595 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 22:48:21.596 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 22:48:21.599 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 22:48:21.600 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 22:48:23.082 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 22:48:23.375 [cluster-ClusterId{value='5a87125f66c8df69241a1b2a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:37}] to localhost:27017
+16-02-2018 22:48:23.379 [cluster-ClusterId{value='5a87125f66c8df69241a1b2a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1106146}
+16-02-2018 22:48:23.791 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:38}] to localhost:27017
+16-02-2018 22:48:24.066 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 22:48:24.066 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 22:48:24.067 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 22:48:24.069 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 22:48:24.941 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 22:48:25.139 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53d64de5, org.springframework.security.web.context.SecurityContextPersistenceFilter@10ed12a2, org.springframework.security.web.header.HeaderWriterFilter@52b2084, org.springframework.security.web.authentication.logout.LogoutFilter@725104bb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f0dc36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6db0a42c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@687f8e24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b2b97fd, org.springframework.security.web.session.SessionManagementFilter@305a8478, org.springframework.security.web.access.ExceptionTranslationFilter@28b4f346, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67cb17f4]
+16-02-2018 22:48:26.565 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 22:48:27.520 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 22:48:27.766 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 22:48:27.951 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 22:48:27.962 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:48:27.963 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:48:27.963 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:48:27.964 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 22:48:28.142 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 17.75 seconds (JVM running for 20.534)
+16-02-2018 23:12:14.502 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 23:18:19.954 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 27868 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 23:18:19.958 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 23:18:19.959 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 23:18:20.267 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1561ce61: startup date [Fri Feb 16 23:18:20 IST 2018]; root of context hierarchy
+16-02-2018 23:18:30.436 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 23:18:30.611 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 23:18:30.616 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 23:18:31.177 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 23:18:32.162 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 23:18:32.164 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 23:18:32.165 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 23:18:32.167 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 23:18:32.171 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 23:18:32.176 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 23:18:34.012 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 23:18:34.171 [cluster-ClusterId{value='5a8719714d215f6cdc46d088', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+16-02-2018 23:18:34.175 [cluster-ClusterId{value='5a8719714d215f6cdc46d088', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1070225}
+16-02-2018 23:18:34.558 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:42}] to localhost:27017
+16-02-2018 23:18:35.077 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 23:18:35.077 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 23:18:35.078 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 23:18:35.080 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 23:18:35.873 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 23:18:36.118 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@564481de, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cfbd067, org.springframework.security.web.header.HeaderWriterFilter@4fb07611, org.springframework.security.web.authentication.logout.LogoutFilter@36c34b91, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24e5e0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@799d56e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f646545, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59fd0528, org.springframework.security.web.session.SessionManagementFilter@77f6465e, org.springframework.security.web.access.ExceptionTranslationFilter@4def774d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34f0694a]
+16-02-2018 23:18:37.466 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 23:18:38.226 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 23:18:38.440 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 23:18:38.602 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 23:18:38.613 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:18:38.614 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:18:38.614 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:18:38.615 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:18:38.784 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 19.962 seconds (JVM running for 22.029)
+16-02-2018 23:20:29.277 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 23:22:06.485 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 19548 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 23:22:06.488 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 23:22:06.496 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 23:22:06.903 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@140f9cdb: startup date [Fri Feb 16 23:22:06 IST 2018]; root of context hierarchy
+16-02-2018 23:22:14.376 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 23:22:14.414 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 23:22:14.418 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 23:22:14.742 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 23:22:15.345 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 23:22:15.347 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 23:22:15.347 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 23:22:15.348 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 23:22:15.350 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 23:22:15.351 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 23:22:16.736 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 23:22:16.920 [cluster-ClusterId{value='5a871a504d215f4c5c9c9ed4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+16-02-2018 23:22:16.924 [cluster-ClusterId{value='5a871a504d215f4c5c9c9ed4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1069084}
+16-02-2018 23:22:17.281 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+16-02-2018 23:22:17.621 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 23:22:17.622 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 23:22:17.623 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 23:22:17.623 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 23:22:18.824 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 23:22:19.048 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38989535, org.springframework.security.web.context.SecurityContextPersistenceFilter@270246d7, org.springframework.security.web.header.HeaderWriterFilter@16447dfd, org.springframework.security.web.authentication.logout.LogoutFilter@4fc23a5b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ea97404, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ccb3061, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56058ef6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d637a58, org.springframework.security.web.session.SessionManagementFilter@4b2101df, org.springframework.security.web.access.ExceptionTranslationFilter@3aff9302, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bab9242]
+16-02-2018 23:22:21.404 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 23:22:23.206 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 23:22:23.562 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 23:22:23.766 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 23:22:23.780 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:22:23.786 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:22:23.787 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:22:23.788 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:22:23.978 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 18.73 seconds (JVM running for 21.379)
+16-02-2018 23:22:36.056 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 23:23:10.860 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 27372 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 23:23:10.865 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 23:23:10.866 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 23:23:11.329 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58acc2b1: startup date [Fri Feb 16 23:23:11 IST 2018]; root of context hierarchy
+16-02-2018 23:23:18.660 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 23:23:18.701 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 23:23:18.704 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 23:23:19.041 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 23:23:19.556 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 23:23:19.558 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 23:23:19.559 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 23:23:19.559 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 23:23:19.562 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 23:23:19.563 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 23:23:21.230 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 23:23:21.489 [cluster-ClusterId{value='5a871a914d215f6aec0aeab0', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:45}] to localhost:27017
+16-02-2018 23:23:21.495 [cluster-ClusterId{value='5a871a914d215f6aec0aeab0', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1362157}
+16-02-2018 23:23:22.080 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:46}] to localhost:27017
+16-02-2018 23:23:22.348 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 23:23:22.348 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 23:23:22.349 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 23:23:22.350 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 23:23:23.250 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 23:23:23.460 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61d6665b, org.springframework.security.web.context.SecurityContextPersistenceFilter@33331f12, org.springframework.security.web.header.HeaderWriterFilter@2286075c, org.springframework.security.web.authentication.logout.LogoutFilter@3224343a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b2c13d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@438b87e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cde44fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63a93519, org.springframework.security.web.session.SessionManagementFilter@6bee9ce6, org.springframework.security.web.access.ExceptionTranslationFilter@6289a12f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6add9be1]
+16-02-2018 23:23:24.929 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 23:23:25.860 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 23:23:26.048 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 23:23:26.258 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 23:23:26.269 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:23:26.269 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:23:26.270 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:23:26.270 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:23:26.395 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 16.543 seconds (JVM running for 18.266)
+16-02-2018 23:23:30.531 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16-02-2018 23:26:36.081 [restartedMain] INFO  c.m.p.S.main.MainController.logStarting - Starting MainController on DESKTOP-029VL5M with PID 5192 (E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL\target\classes started by Administrator in E:\WORKSPACES\WORKSPACE_INTELLIJ_IDEA_V.2.0\SMARTWEBSCHOOL)
+16-02-2018 23:26:36.084 [restartedMain] DEBUG c.m.p.S.main.MainController.logStarting - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+16-02-2018 23:26:36.085 [restartedMain] INFO  c.m.p.S.main.MainController.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-02-2018 23:26:36.351 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ab18ad9: startup date [Fri Feb 16 23:26:36 IST 2018]; root of context hierarchy
+16-02-2018 23:26:43.489 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 6060 (http)
+16-02-2018 23:26:43.532 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-02-2018 23:26:43.535 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+16-02-2018 23:26:43.822 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-02-2018 23:26:44.394 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+16-02-2018 23:26:44.396 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16-02-2018 23:26:44.396 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16-02-2018 23:26:44.397 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+16-02-2018 23:26:44.399 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+16-02-2018 23:26:44.400 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+16-02-2018 23:26:45.810 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16-02-2018 23:26:46.033 [cluster-ClusterId{value='5a871b5d4d215f14489cb179', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+16-02-2018 23:26:46.038 [cluster-ClusterId{value='5a871b5d4d215f14489cb179', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1247551}
+16-02-2018 23:26:46.428 [restartedMain] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:48}] to localhost:27017
+16-02-2018 23:26:46.854 [restartedMain] DEBUG c.m.p.S.c.UploadDumpController.<init> - doStuff needed to debug - {}
+16-02-2018 23:26:46.856 [restartedMain] INFO  c.m.p.S.c.UploadDumpController.<init> - doStuff took input - {}
+16-02-2018 23:26:46.857 [restartedMain] WARN  c.m.p.S.c.UploadDumpController.<init> - doStuff needed to warn - {}
+16-02-2018 23:26:46.857 [restartedMain] ERROR c.m.p.S.c.UploadDumpController.<init> - doStuff encountered an error with value - {}
+16-02-2018 23:26:47.617 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+16-02-2018 23:26:47.843 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@758487fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b2a44d1, org.springframework.security.web.header.HeaderWriterFilter@75788030, org.springframework.security.web.authentication.logout.LogoutFilter@5d44746f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12d2130d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51df8fea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12418d78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3db9a174, org.springframework.security.web.session.SessionManagementFilter@1e2cb437, org.springframework.security.web.access.ExceptionTranslationFilter@15d257e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5db2d3d3]
+16-02-2018 23:26:49.163 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+16-02-2018 23:26:50.061 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+16-02-2018 23:26:50.248 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+16-02-2018 23:26:50.421 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 6060 (http)
+16-02-2018 23:26:50.432 [restartedMain] DEBUG c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:26:50.433 [restartedMain] INFO  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:26:50.433 [restartedMain] WARN  c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:26:50.434 [restartedMain] ERROR c.m.p.S.main.MainController.run - Hello World
+16-02-2018 23:26:50.569 [restartedMain] INFO  c.m.p.S.main.MainController.logStarted - Started MainController in 15.666 seconds (JVM running for 17.401)
+16-02-2018 23:26:55.582 [http-nio-6060-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'

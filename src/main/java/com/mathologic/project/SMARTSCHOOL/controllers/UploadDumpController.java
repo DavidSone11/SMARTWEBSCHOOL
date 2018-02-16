@@ -11,7 +11,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
+
+
 import java.util.Date;
 
 
@@ -19,6 +20,7 @@ import com.mathologic.project.SMARTSCHOOL.exception.smartwebException;
 import com.mathologic.project.SMARTSCHOOL.helpers.FileHandlingHelper;
 import com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump;
 import com.mathologic.project.SMARTSCHOOL.mongo.repositories.UserUploadDumpRepository;
+
 
 import org.joda.time.LocalDateTime;
 import org.slf4j.Logger;
@@ -99,7 +101,7 @@ public class UploadDumpController implements Serializable {
 }
 	
 
-	@RequestMapping(value = "/train", method = RequestMethod.POST, consumes = "multipart/form-data")
+	@RequestMapping(value = "/trainDumpUpload", method = RequestMethod.POST, consumes = "multipart/form-data")
 	@Transactional(propagation = Propagation.REQUIRED, rollbackFor = smartwebException.class)
 	public @ResponseBody String UploadTrain(
 			@RequestParam(value = "UploaderName", required = false, defaultValue = "Santosh") String uploaderName,
@@ -124,7 +126,7 @@ public class UploadDumpController implements Serializable {
 
 				if (!file.isEmpty()) {
 					try {
-						String tempFileName = s + "/uploads/" +getCurrentTimeDateForFile()+"_"+file.getOriginalFilename();
+						String tempFileName = s + "/uploads/" +getCurrentDateTime()+"_"+file.getOriginalFilename();
 						fo = new FileOutputStream(tempFileName);
 						loadToDB(file.getBytes(),file);
 						fo.write(file.getBytes());
@@ -146,11 +148,11 @@ public class UploadDumpController implements Serializable {
 	}
 
 	
-	public String getCurrentTimeDateForFile() {
+	public String getCurrentDateTime() {
 
-		DateTimeFormatter timeStampPattern = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        //return timeStampPattern.format(LocalDateTime.now());
-        return null;
+        Date date = new Date() ;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss") ;
+        return dateFormat.format(date);
 	}
 	public boolean createUploadedDir(String name) {
         boolean result = false;
@@ -189,8 +191,8 @@ public class UploadDumpController implements Serializable {
 			userUploadDump.setUploadContent(bs);
 			userUploadDumpRepository.save(userUploadDump);
 		}
-		
-		return "File has been loaded to DB";
+        uploadDumpLogger.info("File has been loaded to DB...........");
+        return "File has been loaded to DB";
 
 	}
 }
