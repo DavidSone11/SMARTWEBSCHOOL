@@ -18,12 +18,13 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
        User user = userService.findByNameUserNameIsActive(username,true);
+       System.out.print(user);
 //
 //        if(user==null) {
 //            throw new UsernameNotFoundException("No such user: " + username);

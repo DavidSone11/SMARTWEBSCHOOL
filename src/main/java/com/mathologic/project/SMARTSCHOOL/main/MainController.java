@@ -90,8 +90,8 @@ public class MainController extends SpringBootServletInitializer implements Comm
         logger.warn("Hello World");
         logger.error("Hello World");
         //createRole();
-        //createUser();
-        createStation();
+       // createUser();
+        //createStation();
     }
 
     public void createStation(){
@@ -120,8 +120,11 @@ public class MainController extends SpringBootServletInitializer implements Comm
     public void createUser(){
 
          User user = null;
+        Role roleRefOBJ= roleRepository.findByRoleName("admin");
+
          if(user ==null){
              user = new User("santosh123","admin","santosh@gmail.com","7406465159","123456","santosh","sahu",true,new Date(),"super");
+             user.setRoleRef(roleRefOBJ);
              userRepository.save(user);
 
          }

@@ -12,16 +12,11 @@ import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-
 import java.util.Date;
-
-
 import com.mathologic.project.SMARTSCHOOL.exception.smartwebException;
 import com.mathologic.project.SMARTSCHOOL.helpers.FileHandlingHelper;
 import com.mathologic.project.SMARTSCHOOL.mongo.entity.UserUploadDump;
 import com.mathologic.project.SMARTSCHOOL.mongo.repositories.UserUploadDumpRepository;
-
-
 import org.joda.time.LocalDateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
